@@ -43,7 +43,6 @@ document.querySelectorAll(".pizza-child").forEach((pizza) => {
         quantity = 1;
         quantityText.innerText = quantity;
 
-        addItemToCart(itemName, itemPrice, quantity);
         alert(`${itemName} ha sido añadido al carrito.`);
     });
 
@@ -143,4 +142,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     renderCart();
+
 });
